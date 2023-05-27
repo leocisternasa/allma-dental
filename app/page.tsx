@@ -18,11 +18,12 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row lg:-mx-8">
             <div className="w-full lg:w-1/2 lg:px-8">
               <h2 className="text-3xl leading-tight font-bold mt-4">
-                Welcome to the Dentist Office of Dr. Thomas Dooley
+                Bienvenidos al Centro odontogico de ortodoncia Allma.
               </h2>
-              <p className="text-lg mt-4 font-semibold">
-                Excellence in Dentistry in the Heart of NY
-              </p>
+              <h2 className="text-2xl leading-tight font-bold mt-4">
+                Sobre el Dr. Diego Morales Montecinos
+              </h2>
+              <p className="text-lg mt-4 font-semibold"></p>
               <p className="mt-2 leading-relaxed">
                 Donec convallis sollicitudin facilisis. Integer nisl ligula,
                 accumsan non tincidunt ac, imperdiet in enim. Donec efficitur
@@ -38,13 +39,13 @@ export default function Home() {
                 </div>
                 <div className="md:ml-8 mt-4 md:mt-0">
                   <h4 className="text-xl font-bold leading-tight">
-                    Everything You Need Under One Roof
+                    Todo lo que tu y tu sonrisa necesitan en un mismo lugar
                   </h4>
                   <p className="mt-2 leading-relaxed">
-                    Our comprehensive services allow you to receive all needed
-                    dental care right here in our state-of-art office – from
-                    dental cleanings and fillings to dental implants and
-                    extractions.
+                    No te precupes si no vas al dentista hace tiempo. El Dr.
+                    Morales realizara un diagnostico integral, no solo
+                    ortodoncico y podra derivarte con otros especialistas de
+                    confianza dentro de su red de prestadores.
                   </p>
                 </div>
               </div>
@@ -55,14 +56,14 @@ export default function Home() {
                 </div>
                 <div className="md:ml-8 mt-4 md:mt-0">
                   <h4 className="text-xl font-bold leading-tight">
-                    Our Patient-Focused Approach
+                    Atencion enfocada en el paciente
                   </h4>
                   <p className="mt-2 leading-relaxed">
-                    Your treatment plan will perfectly match your needs,
-                    lifestyle, and goals. Even if it’s been years since you last
-                    visited the dentist, we can help. Our comfortable office,
-                    compassionate team, and minimally-invasive treatments will
-                    help you feel completely at ease.
+                    Cada caso es diferente, tanto las personas como sus bocas
+                    son diferentes unos de otros. Tu plan de tratamiento sera
+                    acorde a tus necesidades individuales, tu estilo de vida y
+                    tus metas. Haremos todo lo necesario para que tu sonrisa sea
+                    la que siempre quisiste
                   </p>
                 </div>
               </div>
@@ -140,9 +141,9 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row lg:-mx-8">
             <div className="w-full lg:w-1/2 lg:px-8">
               <h2 className="text-3xl leading-tight font-bold mt-4">
-                Why choose the Mesothelioma Center?
+                Por que elegirnos para tu tratamiento de ortodoncia?
               </h2>
-              <p className="mt-2 leading-relaxed">
+              <p className="mt-10 leading-relaxed">
                 Aenean ut tellus tellus. Suspendisse potenti. Nullam tincidunt
                 lacus tellus, sed aliquam est vehicula a. Pellentesque
                 consectetur condimentum nulla, eleifend condimentum purus
@@ -249,8 +250,8 @@ export default function Home() {
         <section className="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left">
           <div className="md:flex md:items-center md:justify-center">
             <h2 className="text-xl font-bold text-white">
-              Get in touch with us today! <br className="block md:hidden" />
-              Call us on: +1 562-789-1935
+              Comienza ya tu tratamiento de Ortodoncia! Contactanos al: +56 9
+              12345678 <br className="block md:hidden" />
             </h2>
             <a
               href="#"
@@ -288,7 +289,7 @@ export default function Home() {
                       type="submit"
                       className="bg-teal-500 hover:bg-teal-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2"
                     >
-                      Subscribe
+                      Subscribete
                     </button>
                   </div>
                 </div>
@@ -297,22 +298,22 @@ export default function Home() {
 
             <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
               <h5 className="uppercase tracking-wider font-semibold text-gray-500">
-                Treatments
+                Tratamientos
               </h5>
               <ul className="mt-4">
                 <li className="mt-2">
                   <a href="#" title="" className="opacity-75 hover:opacity-100">
-                    General Dentistry
+                    Ortodoncia y Orpedia
                   </a>
                 </li>
                 <li className="mt-2">
                   <a href="#" title="" className="opacity-75 hover:opacity-100">
-                    Cosmetic Dentistry
+                    Odontologia General
                   </a>
                 </li>
                 <li className="mt-2">
                   <a href="#" title="" className="opacity-75 hover:opacity-100">
-                    Oral Health
+                    Diagnosticos Integrales
                   </a>
                 </li>
               </ul>
@@ -320,7 +321,7 @@ export default function Home() {
 
             <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
               <h5 className="uppercase tracking-wider font-semibold text-gray-500">
-                Contact Details
+                Contacto
               </h5>
               <ul className="mt-4">
                 <li>
@@ -341,7 +342,7 @@ export default function Home() {
                       </svg>
                     </span>
                     <span className="ml-3">
-                      1985 Kerry Way, Whittier, CA, USA
+                      Avda. Pajaritos #1234, Maipu. RM
                     </span>
                   </a>
                 </li>
@@ -364,9 +365,9 @@ export default function Home() {
                       </svg>
                     </span>
                     <span className="ml-3">
-                      Mon - Fri: 9:00 - 19:00
+                      Lunes - Viernes: 9:00 - 19:00
                       <br />
-                      Closed on Weekends
+                      Cerrado fines de semana
                     </span>
                   </a>
                 </li>
@@ -387,7 +388,7 @@ export default function Home() {
                         <path d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z" />
                       </svg>
                     </span>
-                    <span className="ml-3">+1 562-789-1935</span>
+                    <span className="ml-3">+56 9 12345678</span>
                   </a>
                 </li>
                 <li className="mt-4">
@@ -407,7 +408,7 @@ export default function Home() {
                         <path d="M20,4H4C2.896,4,2,4.896,2,6v12c0,1.104,0.896,2,2,2h16c1.104,0,2-0.896,2-2V6C22,4.896,21.104,4,20,4z M20,8.7l-8,5.334 L4,8.7V6.297l8,5.333l8-5.333V8.7z" />
                       </svg>
                     </span>
-                    <span className="ml-3">dentalpro@example.com</span>
+                    <span className="ml-3">allmadental@gmail.com</span>
                   </a>
                 </li>
               </ul>
@@ -415,7 +416,7 @@ export default function Home() {
 
             <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
               <h5 className="uppercase tracking-wider font-semibold text-gray-500">
-                We re Social
+                Nuestras Redes Sociales
               </h5>
               <ul className="mt-4 flex">
                 <li>
@@ -477,7 +478,7 @@ export default function Home() {
               </ul>
 
               <p className="text-sm text-gray-400 mt-12">
-                © 2018 ProDentists. <br className="hidden lg:block" />
+                © 2023 Allma Dental <br className="hidden lg:block" />
                 All Rights Reserved.
               </p>
             </div>
