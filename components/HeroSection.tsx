@@ -50,8 +50,8 @@ function HeroSection() {
               src={bgFamilia}
               alt=""
               className="w-full h-full object-cover opacity-20"
-              width={500}
-              height={500}
+              width={600}
+              height={600}
             />
           </div>
 
@@ -163,7 +163,7 @@ function HeroSection() {
                       >
                         <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6">
                           <div>
-                            <div className="mx-auto flex h-18 items-center justify-center rounded-full bg-green-100 ">
+                            <div className="mx-auto flex h-16 items-center justify-center rounded-full bg-green-100 ">
                               {presencial ? (
                                 <div className="p-4">
                                   <Image
@@ -177,8 +177,8 @@ function HeroSection() {
                                 <div className="p-4">
                                   <Image
                                     src={iconMedicalApp}
-                                    height={90}
-                                    width={90}
+                                    height={60}
+                                    width={60}
                                     alt="logo modal tele ortodoncia"
                                   />
                                 </div>
