@@ -20,8 +20,3 @@ nav.scrolled {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: all 500ms ease-in-out;
 }
-
-.bg-image-hero {
-  background-image: url(../public/images/cover-bg.jpg);
-  height: max-content;
-}

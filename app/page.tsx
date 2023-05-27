@@ -3,51 +3,17 @@ import Image from "next/image";
 import logo from "../public/logo-allma-dental.png";
 import background from "../public/images/cover-bg.jpg";
 import Navbar from "@/components/Navbar";
+import iconPresencial from "../public/dentist-chair.png";
+import iconTelemedicina from "../public/telemedicine.png";
+import iconMedicalApp from "../public/medical-app.png";
+
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
     <div>
       <main className="w-full ">
-        <div>
-          <div className="bg-gray-100">
-            <section
-              className="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex
-              items-center min-h-screen"
-            >
-              <div className="fixed top-0 left-[12vw] items-center">
-                <Navbar />
-              </div>
-              {/* <div className="h-full absolute top-0 left-0 z-0">
-              <Image
-              src={background}
-              alt=""
-              className="w-full h-full object-cover opacity-20"
-              width={500}
-              height={500}
-              />
-            </div> */}
-
-              <div className="lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16">
-                <div>
-                  <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-                    A better life starts with a beautiful smile.
-                  </h1>
-                  <p className="text-blue-100 text-xl md:text-2xl leading-snug mt-4">
-                    Welcome to the Dentist Office of Dr. Thomas Dooley, where
-                    trust and comfort are priorities.
-                  </p>
-                  <a
-                    href="#"
-                    className="px-8 py-4 bg-teal-500 text-white rounded inline-block mt-8 font-semibold"
-                  >
-                    Book Appointment
-                  </a>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-        \
+        <HeroSection />\
         <section className="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
           <div className="flex flex-col lg:flex-row lg:-mx-8">
             <div className="w-full lg:w-1/2 lg:px-8">
