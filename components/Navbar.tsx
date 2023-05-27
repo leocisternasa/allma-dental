@@ -193,7 +193,11 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      <nav className={`${isScrolled ? "scrolled bg-white" : "bg-transparent"}`}>
+      <nav
+        className={`${
+          isScrolled ? "scrolled bg-white" : "bg-white md:bg-transparent"
+        }`}
+      >
         <Disclosure as="nav" className="">
           {({ open }) => (
             <>
@@ -249,30 +253,11 @@ function Navbar() {
                   <Disclosure.Button
                     as="a"
                     href="#"
-                    className="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700"
+                    className="block border-l-4 py-2 pl-3 pr-4 text-black font-medium"
                   >
-                    Dashboard
-                  </Disclosure.Button>
-                  <Disclosure.Button
-                    as="a"
-                    href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-                  >
-                    Team
-                  </Disclosure.Button>
-                  <Disclosure.Button
-                    as="a"
-                    href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-                  >
-                    Projects
-                  </Disclosure.Button>
-                  <Disclosure.Button
-                    as="a"
-                    href="#"
-                    className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-                  >
-                    Calendar
+                    {NAV_ITEMS.map((item, idx) => {
+                      return <NavItems {...item} key={idx} />;
+                    })}
                   </Disclosure.Button>
                 </div>
               </Disclosure.Panel>

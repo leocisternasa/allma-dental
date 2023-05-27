@@ -42,7 +42,7 @@ function HeroSection() {
           className="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex
               items-center min-h-screen"
         >
-          <div className="fixed top-0 left-[10vw] items-center w-[80vw] z-30">
+          <div className="fixed top-0 left-0 md:left-[10vw] items-center w-[100vw] md:w-[80vw] z-30">
             <Navbar />
           </div>
           <div className="h-full absolute top-0 left-0 z-0">

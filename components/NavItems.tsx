@@ -35,7 +35,7 @@ export default function NavItems(item: NavItem, key: number) {
             <div className="relative mt-2">
               <Listbox.Button
                 className={`mt-2 relative w-full cursor-default rounded-md bg-transparent py-1.5 pl-3 pr-10 text-left shadow-sm  focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6 inline-flex items-center border-transparent px-1 pt-1 text-sm font-medium ${
-                  isScrolled ? "text-gray-500" : "text-white"
+                  isScrolled ? "text-gray-500" : "text-gray-500 md:text-white"
                 }  hover:border-gray-300 hover:text-gray-700 border-0`}
               >
                 <span className="block truncate">{item.navItemLabel}</span>
@@ -82,7 +82,7 @@ export default function NavItems(item: NavItem, key: number) {
         <a
           href="#"
           className={`mt-2 relative w-full cursor-default rounded-md bg-transparent py-1.5 pl-3 pr-10 text-left shadow-sm  focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6 inline-flex items-center border-transparent px-1 pt-1 text-sm font-medium ${
-            isScrolled ? "text-gray-500" : "text-white"
+            isScrolled ? "text-gray-500" : "text-gray-500 md:text-white"
           }  hover:border-gray-300 hover:text-gray-700 border-0`}
         >
           {item.navItemLabel}
