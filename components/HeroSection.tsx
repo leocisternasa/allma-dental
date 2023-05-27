@@ -55,12 +55,12 @@ function HeroSection() {
             />
           </div>
 
-          <div className="lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16">
+          <div className="lg:w-3/4 xl:w-3/5 relative z-10 h-200 lg:mt-[0px]">
             <div>
               <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
                 Una vida mejor comienza con una hermosa sonrisa.
               </h1>
-              <p className="text-blue-100 text-xl md:text-2xl leading-snug mt-12">
+              <p className="text-blue-100 text-xl md:text-2xl leading-snug mt-10">
                 Bienvenido a Allma centro odontologico especializado en
                 Ortodoncia, donde la confianza y su comodidad son nuestras
                 prioridades.
@@ -73,7 +73,7 @@ function HeroSection() {
               </p>
               <a
                 href="#"
-                className="px-8 py-4 bg-teal-500 text-white rounded flex mt-8 font-semibold w-full"
+                className="px-8 py-4 bg-teal-500 text-white rounded flex mt-6 font-semibold w-full"
                 onClick={handleOpenPresencial}
               >
                 <Image
@@ -88,7 +88,7 @@ function HeroSection() {
               </a>
               <a
                 href="#"
-                className="px-8 py-4 bg-teal-500 text-white rounded flex mt-8 font-semibold w-full align-middle "
+                className="px-8 py-4 bg-teal-500 text-white rounded flex mt-6 font-semibold w-full align-middle "
               >
                 <Image
                   src={iconTelemedicina}
