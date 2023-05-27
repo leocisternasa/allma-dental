@@ -25,10 +25,20 @@ export default function Home() {
               </h2>
               <p className="text-lg mt-4 font-semibold"></p>
               <p className="mt-2 leading-relaxed">
-                Donec convallis sollicitudin facilisis. Integer nisl ligula,
-                accumsan non tincidunt ac, imperdiet in enim. Donec efficitur
-                ullamcorper metus, eu venenatis nunc. Nam eget neque tempus,
-                mollis sem a, faucibus mi.
+                El Dr. Diego Morales es un Cirujano Dentista altamente
+                capacitado, graduado en enero de 2012 de la Universidad de
+                Chile. Con especialización en Ortodoncia y Ortopedia Dento
+                Máxilo Facial, ha participado en congresos nacionales e
+                internacionales y ha publicado trabajos científicos.
+              </p>
+              <p className="mt-2 leading-relaxed">
+                Además, cuenta con certificaciones en alineadores Invisalign,
+                KeepSmiling y Orthosoft. Su enfoque se centra en brindar un
+                servicio de excelencia, siendo reconocido por su empatía,
+                cercanía y profesionalismo.{" "}
+                <a href="#" className="underline hover:text-blue-600 font-bold">
+                  Leer mas...
+                </a>
               </p>
             </div>
 
