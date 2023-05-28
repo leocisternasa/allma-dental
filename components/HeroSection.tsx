@@ -10,9 +10,10 @@ import iconTelemedicina from "../public/telemedicine.png";
 import iconMedicalApp from "../public/medical-app.png";
 import iconModalPresencial from "../public/braces.png";
 import bgFamilia from "../public/familia.jpeg";
-import logoInvisalign from "../public/invisalign-provider.png";
-import logoKeepSmilling from "../public/keepsmilling.png";
-import logoOrthosoft from "../public/orthosoft.png";
+import logoInvisalign from "../public/invisalign-provider.svg";
+import logoKeepSmilling from "../public/keepsmilling.svg";
+import logoOrthosoft from "../public/orthosoft.svg";
+import oorthosoft from "../public/oorthosoft.svg";
 import { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
@@ -101,7 +102,7 @@ function HeroSection() {
                 </p>
               </a>
               <div className="flex mt-5 space-x-5 justify-center">
-                <div className="w-auto h-auto bg-white self-center rounded-md">
+                <div className="w-auto h-auto bg-trasparent self-center rounded-md">
                   <Image
                     src={logoInvisalign}
                     height={100}
@@ -110,7 +111,7 @@ function HeroSection() {
                     className="rounded-md"
                   />
                 </div>
-                <div className="w-auto h-auto self-center bg-white rounded-md">
+                <div className="w-auto h-auto self-center bg-trasparent rounded-md">
                   <Image
                     src={logoKeepSmilling}
                     height={100}
@@ -119,9 +120,9 @@ function HeroSection() {
                     className="rounded-md"
                   />
                 </div>
-                <div className="w-auto h-auto bg-white self-center rounded-md p-2">
+                <div className="w-auto h-auto bg-transparent self-center rounded-md p-2 ">
                   <Image
-                    src={logoOrthosoft}
+                    src={oorthosoft}
                     height={50}
                     width={150}
                     alt="logo orthosoft"
