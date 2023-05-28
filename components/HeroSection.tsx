@@ -69,8 +69,8 @@ function HeroSection() {
               <p className="text-blue-100 text-xl md:text-2xl leading-snug mt-6">
                 Agenda una evaluacion con nuestro Director el Dr. Diego Morales
                 Montecinos, fundador y especialista en ortodoncia y ortopedia
-                dentomaxilar de la Universidad de Chille, tratante certificado
-                de alineadores Invisaling, KeepSmilling y Orthosoft
+                dentomaxilar de la Universidad de Chile, tratante certificado de
+                alineadores Invisaling, KeepSmilling y Orthosoft
               </p>
               <a
                 href="#"

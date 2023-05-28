@@ -274,7 +274,7 @@ export default function Home() {
         <footer className="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
           <div className="flex flex-col md:flex-row">
             <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-              <h3 className="font-bold text-2xl">DentalPro</h3>
+              <h3 className="font-bold text-2xl">Allma Dental</h3>
               <p className="text-gray-400">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam nonumy.
@@ -313,7 +313,7 @@ export default function Home() {
               <ul className="mt-4">
                 <li className="mt-2">
                   <a href="#" title="" className="opacity-75 hover:opacity-100">
-                    Ortodoncia y Orpedia
+                    Ortodoncia y Ortopedia
                   </a>
                 </li>
                 <li className="mt-2">
