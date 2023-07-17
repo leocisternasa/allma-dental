@@ -4,7 +4,7 @@ function KeepSmillingBg() {
   return (
     <section className="relative bg-gray-100 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32 h-[100vh]">
       <video
-        className="w-full h-[50vh] lg:h-full object-contain block md:absolute top-0 left-0 z-0"
+        className="w-full h-[50vh] lg:h-full object-contain block lg:absolute top-0 left-0 z-0"
         autoPlay
         loop
         muted
@@ -12,7 +12,7 @@ function KeepSmillingBg() {
         <source src="/keepsmiling.mp4" type="video/mp4" />
       </video>
       <div className="flex flex-col lg:flex-row lg:-mx-8 z-50 mt-5">
-        <div className="w-full lg:w-1/2 lg:px-8 sm:z-40 text-black md:text-white">
+        <div className="w-full lg:w-1/2 lg:px-8 sm:z-40 text-black lg:text-white">
           <h2 className="text-3xl leading-tight font-bold mt-4m">
             Por que elegirnos para tu tratamiento de ortodoncia?
           </h2>

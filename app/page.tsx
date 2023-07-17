@@ -17,8 +17,8 @@ import KeepSmillingBg from "@/components/KeepSmillingBg";
 export default function Home() {
   return (
     <div>
-      <main className="w-full ">
         <HeroSection />
+      <main className="w-full px-5 md:px-0 ">
         
         <section className="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-25">
           <div className="flex flex-col lg:flex-row lg:-mx-8">
@@ -48,17 +48,17 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="w-full lg:w-1/2 lg:px-8 mt-6 lg:mt-0 ml-20 lg:pb-16">
+            <div className="w-full lg:w-1/2 lg:px-8 mt-6 lg:mt-0 lg:ml-20 sm:ml-[25vw] ml-0 lg:pb-16">
               <Image
                 src={photoDiego}
                 width={400}
                 height={380}
                 alt="Picture of Diego"
-                className="lg:rounded-b-lg"
+                
               />
             </div>
           </div>
-          <div className="w-full mt-12 flex">
+          <div className="w-full mt-12 sm:flex ">
             <div className="md:flex mr-12">
               <div>
               <Image src={bracesIcon2} alt="" width={400} height={400} />
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
 
             <div className="md:flex">
-              <div>
+              <div >
                 <Image src={bracesIcon1} alt="" width={400} height={400} />
               </div>
               <div className="md:ml-8 mt-4 md:mt-0">
@@ -161,8 +161,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        \
-        <KeepSmillingBg />\
+        
+        <KeepSmillingBg />
         <section className="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-32">
           <div className="">
             <h2 className="text-3xl leading-tight font-bold">Health Blog</h2>

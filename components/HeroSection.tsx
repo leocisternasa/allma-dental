@@ -48,7 +48,7 @@ function HeroSection() {
             <Navbar />
           </div>
           <div>
-            <SocialMedia/>
+            <SocialMedia />
           </div>
           <div className="h-full absolute top-0 left-0 z-0">
             <Image
@@ -60,7 +60,7 @@ function HeroSection() {
             />
           </div>
 
-          <div className="lg:w-3/4 xl:w-3/5 relative z-10 h-200 lg:mt-[0px]">
+          <div className="lg:w-3/4 xl:w-3/5 relative z-10 h-200 lg:mt-[0px] p-3 md:p-0">
             <div>
               <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
                 Una vida mejor comienza con una hermosa sonrisa.
@@ -76,24 +76,25 @@ function HeroSection() {
                 dentomaxilar de la Universidad de Chile, tratante certificado de
                 alineadores Invisaling, KeepSmilling y Orthosoft
               </p>
-              <a
+               <a
                 href="#"
-                className="px-8 py-4 bg-teal-500 text-white rounded flex mt-6 font-semibold w-full"
-                onClick={handleOpenPresencial}
+                className="  text-white rounded flex mt-10 h-[8vh] lg:h-auto w-full lg:w-[32vw] align-middle bg-indigo-600 px-3.5 py-2.5 text-md lg:text-lg font-semibold shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                onClick={handleOpenOnline}
               >
                 <Image
                   src={iconPresencial}
                   height={50}
                   width={50}
-                  alt="logo atencion presencial"
+                  alt="logo teledicina"
+                  className="invert"
                 />
                 <p className="self-center ml-7">
-                  Agenda evaluacion Ortodoncia presencial gratuita
+                Agenda evaluacion presencial gratuita
                 </p>
               </a>
               <a
                 href="#"
-                className="px-8 py-4 bg-teal-500 text-white rounded flex mt-6 font-semibold w-full align-middle "
+                className="  text-white rounded flex mt-6 h-[8vh] lg:h-auto w-full lg:w-[32vw] align-middle bg-indigo-600 px-3.5 py-2.5 text-md lg:text-lg font-semibold shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 onClick={handleOpenOnline}
               >
                 <Image
@@ -101,13 +102,14 @@ function HeroSection() {
                   height={50}
                   width={50}
                   alt="logo teledicina"
+                  className="invert"
                 />
                 <p className="self-center ml-7">
                   Agenda evaluacion Ortodoncia online gratuita
                 </p>
               </a>
               <div className="flex mt-5 space-x-5 justify-center">
-                <div className="w-auto h-auto bg-trasparent self-center rounded-md">
+                <div className="w-auto h-auto bg-trasparent self-center rounded-md ">
                   <Image
                     src={logoInvisalign}
                     height={100}
@@ -274,13 +276,12 @@ function HeroSection() {
                               type="button"
                               className="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:col-start-2"
                               onClick={handleClose}
-                              
                             >
-                            <a href="https://7ef4a049490dc9cb66c1884551a7dffbf286c44f.agenda.softwaredentalink.com/agendas/agendaExpress">
-                              {presencial
-                                ? "Ver Agenda Dr. Morales"
-                                : "Ver Agenda Videoconsulta"}
-                            </a>
+                              <a href="https://7ef4a049490dc9cb66c1884551a7dffbf286c44f.agenda.softwaredentalink.com/agendas/agendaExpress">
+                                {presencial
+                                  ? "Ver Agenda Dr. Morales"
+                                  : "Ver Agenda Videoconsulta"}
+                              </a>
                             </button>
                             <button
                               type="button"
