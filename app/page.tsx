@@ -6,22 +6,27 @@ import Navbar from "@/components/Navbar";
 import iconPresencial from "../public/dentist-chair.png";
 import iconTelemedicina from "../public/telemedicine.png";
 import iconMedicalApp from "../public/medical-app.png";
+import photoDiego from "../public/diego.png";
+import bracesIcon1 from "../public/bracesIcon1.png";
+import bracesIcon2 from '../public/bracesIcon2.png'
 
 import HeroSection from "@/components/HeroSection";
 import KeepSmillingBg from "@/components/KeepSmillingBg";
+
 
 export default function Home() {
   return (
     <div>
       <main className="w-full ">
-        <HeroSection />\
-        <section className="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
+        <HeroSection />
+        
+        <section className="relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-25">
           <div className="flex flex-col lg:flex-row lg:-mx-8">
-            <div className="w-full lg:w-1/2 lg:px-8">
-              <h2 className="text-3xl leading-tight font-bold mt-4">
+            <div className="w-full lg:w-1/2 lg:px-8 lg:mt-14">
+              <h2 className="text-3xl leading-tight font-bold">
                 Bienvenidos al Centro odontogico de ortodoncia Allma.
               </h2>
-              <h2 className="text-2xl leading-tight font-bold mt-4">
+              <h2 className="text-2xl leading-tight font-bold mt-10 mb-7">
                 Sobre el Dr. Diego Morales Montecinos
               </h2>
               <p className="text-lg mt-4 font-semibold"></p>
@@ -32,7 +37,7 @@ export default function Home() {
                 Máxilo Facial, ha participado en congresos nacionales e
                 internacionales y ha publicado trabajos científicos.
               </p>
-              <p className="mt-2 leading-relaxed">
+              <p className="mt-8 lg:mt-10 leading-relaxed">
                 Además, cuenta con certificaciones en alineadores Invisalign,
                 KeepSmiling y Orthosoft. Su enfoque se centra en brindar un
                 servicio de excelencia, siendo reconocido por su empatía,
@@ -43,40 +48,49 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-0">
-              <div className="md:flex">
-                <div>
-                  <div className="w-16 h-16 bg-blue-600 rounded-full"></div>
-                </div>
-                <div className="md:ml-8 mt-4 md:mt-0">
-                  <h4 className="text-xl font-bold leading-tight">
-                    Todo lo que tu y tu sonrisa necesitan en un mismo lugar
-                  </h4>
-                  <p className="mt-2 leading-relaxed">
-                    No te precupes si no vas al dentista hace tiempo. El Dr.
-                    Morales realizara un diagnostico integral, no solo
-                    ortodoncico y podra derivarte con otros especialistas de
-                    confianza dentro de su red de prestadores.
-                  </p>
-                </div>
+            <div className="w-full lg:w-1/2 lg:px-8 mt-6 lg:mt-0 ml-20 lg:pb-16">
+              <Image
+                src={photoDiego}
+                width={400}
+                height={380}
+                alt="Picture of Diego"
+                className="lg:rounded-b-lg"
+              />
+            </div>
+          </div>
+          <div className="w-full mt-12 flex">
+            <div className="md:flex mr-12">
+              <div>
+              <Image src={bracesIcon2} alt="" width={400} height={400} />
               </div>
+              <div className="md:ml-8 mt-4 md:mt-0">
+                <h4 className="text-xl font-bold leading-tight">
+                  Todo lo que tu y tu sonrisa necesitan en un mismo lugar
+                </h4>
+                <p className="mt-2 leading-relaxed">
+                  No te precupes si no vas al dentista hace tiempo. El Dr.
+                  Morales realizara un diagnostico integral, no solo ortodoncico
+                  y podra derivarte con otros especialistas de confianza dentro
+                  de su red de prestadores.
+                </p>
+              </div>
+            </div>
 
-              <div className="md:flex mt-8">
-                <div>
-                  <div className="w-16 h-16 bg-blue-600 rounded-full"></div>
-                </div>
-                <div className="md:ml-8 mt-4 md:mt-0">
-                  <h4 className="text-xl font-bold leading-tight">
-                    Atencion enfocada en el paciente
-                  </h4>
-                  <p className="mt-2 leading-relaxed">
-                    Cada caso es diferente, tanto las personas como sus bocas
-                    son diferentes unos de otros. Tu plan de tratamiento sera
-                    acorde a tus necesidades individuales, tu estilo de vida y
-                    tus metas. Haremos todo lo necesario para que tu sonrisa sea
-                    la que siempre quisiste
-                  </p>
-                </div>
+            <div className="md:flex">
+              <div>
+                <Image src={bracesIcon1} alt="" width={400} height={400} />
+              </div>
+              <div className="md:ml-8 mt-4 md:mt-0">
+                <h4 className="text-xl font-bold leading-tight">
+                  Atencion enfocada en el paciente
+                </h4>
+                <p className="mt-2 leading-relaxed">
+                  Cada caso es diferente, tanto las personas como sus bocas son
+                  diferentes unos de otros. Tu plan de tratamiento sera acorde a
+                  tus necesidades individuales, tu estilo de vida y tus metas.
+                  Haremos todo lo necesario para que tu sonrisa sea la que
+                  siempre quisiste
+                </p>
               </div>
             </div>
           </div>

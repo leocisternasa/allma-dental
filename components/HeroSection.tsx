@@ -16,6 +16,7 @@ import logoOrthosoft from "../public/orthosoft.svg";
 import oorthosoft from "../public/oorthosoft.svg";
 import { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+import SocialMedia from "./SocialMedia";
 
 function HeroSection() {
   const [open, setOpen] = useState(false);
@@ -45,6 +46,9 @@ function HeroSection() {
         >
           <div className="fixed top-0 left-0 md:left-[10vw] items-center w-[100vw] md:w-[80vw] z-30">
             <Navbar />
+          </div>
+          <div>
+            <SocialMedia/>
           </div>
           <div className="h-full absolute top-0 left-0 z-0">
             <Image
@@ -90,6 +94,7 @@ function HeroSection() {
               <a
                 href="#"
                 className="px-8 py-4 bg-teal-500 text-white rounded flex mt-6 font-semibold w-full align-middle "
+                onClick={handleOpenOnline}
               >
                 <Image
                   src={iconTelemedicina}
@@ -97,7 +102,7 @@ function HeroSection() {
                   width={50}
                   alt="logo teledicina"
                 />
-                <p onClick={handleOpenOnline} className="self-center ml-7">
+                <p className="self-center ml-7">
                   Agenda evaluacion Ortodoncia online gratuita
                 </p>
               </a>
@@ -269,10 +274,13 @@ function HeroSection() {
                               type="button"
                               className="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:col-start-2"
                               onClick={handleClose}
+                              
                             >
+                            <a href="https://7ef4a049490dc9cb66c1884551a7dffbf286c44f.agenda.softwaredentalink.com/agendas/agendaExpress">
                               {presencial
                                 ? "Ver Agenda Dr. Morales"
-                                : "Ver Agenda Online "}
+                                : "Ver Agenda Videoconsulta"}
+                            </a>
                             </button>
                             <button
                               type="button"
